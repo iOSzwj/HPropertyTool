@@ -19,12 +19,11 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/hare27/HPropertyTool"
 
-  s.license      = "MIT (example)"
+  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
-  s.author             = { "hare27" => "hare27@icloud.com" }
+  s.author             = { "hare27" => "hare27@foxmail.com" }
 
   s.platform     = :ios
-  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
